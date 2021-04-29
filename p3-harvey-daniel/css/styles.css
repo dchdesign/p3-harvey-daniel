@@ -1,0 +1,363 @@
+/*===========================
+
+--Universal Styling
+
+================================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*===========================
+
+--Header Styling
+
+================================*/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+  z-index: 99;
+}
+
+header nav {
+    display: inherit;
+    max-width: inherit;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    right: -200px;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 20px;
+    top: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: .2s;
+}
+
+header nav a:hover {
+    border-bottom: 3px solid #333;
+    transition: .2s;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 185px;
+  padding-top: 35px;
+  animation: logodrop 1s linear;
+}
+
+/*===========================
+
+--Main body Styling
+
+================================*/
+
+
+.contact-forms {
+  padding: 30px;
+  border-radius: 5px;
+  background: grey;
+  max-width: 500px;
+  font-family: serif;
+  margin: auto;
+  text-align: left;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.input-section {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.submit {
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+}
+
+main {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 300px;
+}
+
+main nav {
+    display: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+main nav li {
+    display: inline-block;
+    margin: 0 170px;
+    margin-bottom: 40px;
+    margin-left: 165px;
+    margin-right: 195px;
+    text-align: center;
+}
+
+main nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: .2s;
+    text-align: center;
+}
+
+main nav a:hover {
+    border-bottom: 3px solid #333;
+    transition: .2s;
+}
+
+.customtext{
+  color: gray;
+  font-size: 24px;
+  display: block;
+}
+
+main nav li {
+      display: inline-block;
+      margin: 0 170px;
+      margin-bottom: 40px;
+      margin-left: 165px;
+      margin-right: 195px;
+      text-align: center;
+  }
+
+main nav a {
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+      transition: .2s;
+      text-align: center;
+  }
+
+main nav a:hover {
+      border-bottom: 3px solid #333;
+      transition: .2s;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.photography img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+}
+
+.self-portrait img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+}
+
+.couple {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+  transition: 2s;
+}
+
+.fan {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+  transition: 2s;
+}
+
+.couple:hover {
+  height: 600px;
+  width: 500px;
+  transition: 2s;
+}
+
+.fan:hover {
+  height: 600px;
+  width: 500px;
+  transition: 2s;
+}
+
+.aboutme {
+  width: 300px;
+  text-align: left;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  top: -450px;
+  right: 210px;
+  z-index:90;
+  margin: 15px;
+  font-family: 'Optima', sans-serif;
+}
+
+.aboutphotography {
+  width: 300px;
+  text-align: left;
+  margin-left: 30px;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  top: -600px;
+  right: -200px;
+  z-index: 90;
+  margin: 15px;
+  font-family: 'Optima', sans-serif;
+}
+
+.contact-info {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    margin: 30px;
+    display: inline-block;
+    top: -500px;
+}
+
+.studio-image img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  z-index: 95;
+  position: relative;
+  right: 525px;
+}
+
+.studio-map img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  z-index: 95;
+  position: relative;
+  right: -525px;
+  top: -1160px;
+
+}
+
+/*===========================
+
+--Footer Styling
+
+================================*/
+
+.bottomlogo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 98;
+}
+
+.bottomleftlogo {
+  float:left;
+}
+
+
+footer{
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
+  z-index: 97;
+}
+
+
+footer nav {
+    display: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+footer nav li {
+    display: inline-block;
+    margin: 0 170px;
+    margin-bottom: 0px;
+    margin-left: 165px;
+    margin-right: 195px;
+    text-align: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: .2s;
+    text-align: center;
+}
+
+footer nav a:hover {
+    border-bottom: 3px solid #333;
+    transition: .2s;
+}
+
+/*===========================
+
+--Animation Styling
+
+================================*/
+
+@keyframes logodrop {
+  from {
+    transform: translateY(-200px); }
+  to {
+    transform: translateY(0px); }
+  }
